@@ -1,0 +1,11 @@
+CSS
+ width: 300px; 設定寬度
+ height: 100px; 設定高度
+ border: 1px solid black;       設定框線樣式
+ background: pink;  設定背景
+ margin:20px;       設定外距
+ padding:20px;      設定內距
+ box-sizing: border-box;        設定border及padding值包含在長寬內
+
+安裝 tabnine
+ext install TabNine.tabnine-vscode
