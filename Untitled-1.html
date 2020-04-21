@@ -4,8 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      .fontFamily {
+        font-family: "myFont";
+        width: 500px;
+        /* height: 300px; */
+      }
+
+      @font-face {
+        font-family: "myFont";
+        src: url("FiraCode-Regular.ttf");
+      }
+    </style>
+    <link rel="stylesheet" href="/HTML_CSS_Practice/styles/atom-one-dark.css" />
+    <script src="highlight.pack.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
   <body>
-    <img src="https://i.imgur.com/lo1vbWj.jpg" alt="123" />
+    <h1>程式碼高亮測試</h1>
+    <div>
+      <pre><code class="fontFamily">
+  public class Main {
+    public static void main(String[] args) {
+
+        // Just a comment
+        System.out.println("Hello, World!");
+    }
+}
+
+    // Result:==
+    // Hello, World!
+    </code></pre>
+      <br /><br /><br />
+      <pre><code class="fontFamily">
+  var number = 0;
+  $(document).ready(function () {
+    $("#gameStart").click(startHandler);
+  });
+
+  function startHandler() {
+    number = Math.floor(Math.random() * 9) + 1;
+    $(":text").val(number);
+  }
+            </code></pre>
+    </div>
   </body>
 </html>
