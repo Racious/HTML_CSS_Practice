@@ -1,0 +1,23 @@
+h1 {
+  color: red;
+}
+
+h1:hover {
+  color: pink;
+}
+a {
+  color: black;
+}
+
+a:hover {
+  color: red;
+  font-size: 20px;
+}
+a:active {
+  color: greenyellow;
+}
+
+/* 
+HTML標籤:hover   滑過去
+HTML標籤:active  按下去  
+*/

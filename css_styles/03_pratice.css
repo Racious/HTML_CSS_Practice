@@ -1,0 +1,28 @@
+p {
+  color: blue;
+}
+
+.style1 {
+  color: red;
+}
+.aStyle1 {
+  color: pink;
+}
+.aStyle1:hover {
+  color: salmon;
+  font-size: 1.5em;
+}
+.aStyle2 {
+  color: darkblue;
+}
+
+/* 
+HTML標籤:hover   滑過去
+HTML標籤:active  按下去  
+選處class:  .class名稱{}
+
+標籤選擇器
+凝態選擇器 a:hover a:active
+類別選擇器 自訂效果
+
+*/

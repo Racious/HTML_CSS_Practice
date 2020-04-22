@@ -1,0 +1,40 @@
+H1 {
+  border-left: 10px solid blue;
+  border-bottom: 5px solid red;
+  border-top: 5px solid orange;
+  border-right: 10px solid gold;
+}
+img {
+  width: 400px;
+  border: 5px solid #000000;
+}
+/* 
+練習123
+HTML標籤:hover   滑過去
+HTML標籤:active  按下去  
+選處class:  .class名稱{}
+
+標籤選擇器
+凝態選擇器 a:hover a:active
+類別選擇器 自訂效果
+
+練習4
+font-family:設定字型
+font-size: 預設16px;
+line-height:行距
+text-align: right; 靠右
+text-align: left; 靠左
+text-indent: 2em; 縮排2字
+text-decoration: underline; 下底線
+text-decoration: line-through; 刪除線
+letter-spacing: 2px; 字距
+
+練習5
+border: 1px solid blue; 線條粗細 線條樣式 顏色
+border-top/bottom/left/right -上下左右
+solid 實心線條
+dashed 虛線線條
+dotted 圓點虛線
+圖片也可加上線條
+
+*/

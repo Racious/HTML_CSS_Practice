@@ -1,0 +1,30 @@
+p {
+  font-family: Fira Code;
+  font-family: verdana;
+  font-size: 18px;
+  line-height: 1.7em;
+  text-align: left;
+  text-indent: 2em;
+  text-decoration: underline;
+  text-decoration: line-through;
+  letter-spacing: 2px;
+}
+/* 
+HTML標籤:hover   滑過去
+HTML標籤:active  按下去  
+選處class:  .class名稱{}
+
+標籤選擇器
+凝態選擇器 a:hover a:active
+類別選擇器 自訂效果
+
+font-family:設定字型
+font-size: 預設16px;
+line-height:行距
+text-align: right; 靠右
+text-align: left; 靠左
+text-indent: 2em; 縮排2字
+text-decoration: underline; 下底線
+text-decoration: line-through; 刪除線
+letter-spacing: 2px; 字距
+*/
