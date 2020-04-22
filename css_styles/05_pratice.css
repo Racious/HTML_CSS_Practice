@@ -8,6 +8,9 @@ img {
   width: 400px;
   border: 5px solid #000000;
 }
+img:hover {
+  width: auto;
+}
 /* 
 練習123
 HTML標籤:hover   滑過去
