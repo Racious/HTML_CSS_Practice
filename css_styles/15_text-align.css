@@ -1,0 +1,194 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ **************分隔線************** 
+*/
+.wrap {
+  width: 500px;
+  background: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  height: 50px;
+  background: black;
+}
+.content {
+  background: red;
+  padding: 20px;
+}
+.content p {
+  color: white;
+  margin-bottom: 30px;
+}
+.footer {
+  background: gold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+/* 
+display:block;   區塊元素
+display:inline;  行內元素
+行內元素無法直接設定寬高，需先改變為區塊元素
+可利用增加寬高讓使用者容易按超連結
+可下背景顏色來辨識是否為區塊或行內元素
+
+區塊元素內包行內元素
+文字段落內可加上多個行內元素 例如a標籤 span標籤等
+
+.style1 a == class名稱範圍 裡面的（空格）某標籤
+.style1 a == style1裡面的a標籤
+.style1 .content == style1類別裡面的content類別
+.style1 h2 == style1裡面的h2標籤
+font-weight: bold 粗體
+
+margin-bottom: 30px; 往外推30px 外距
+p 區塊元素
+盡可能佔滿整個空間，會依照父元素的寬度自適應延伸佔滿
+padding-left: 30px; 往內推30px 內距
+
+只有padding跟border會影響本身的寬高
+
+.wrap
+  margin-left: auto; 會依照父元素(body) 左右邊平均分配寬度伸縮
+  margin-right: auto;
+
+.header
+  margin-left: auto; 會依照父元素(.warp) 左右邊平均分配寬度伸縮
+  margin-right: auto;
+  
+  pt padding-top
+  pb padding-bottom
+  text-align:  center置中  right靠右 left靠左
+  在區塊元素靠中/左右
+*/

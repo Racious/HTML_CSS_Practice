@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+ **************分隔線************** 
+*/
+
+.container {
+  width: 700px;
+  background: #004466;
+  margin: 0 auto;
+  display: flex;
+}
+.item {
+  background: #00ffa2;
+  color: red;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.item1 {
+  width: 100px;
+  height: 150px;
+}
+.item2 {
+  height: 200px;
+  width: 300px;
+}
+.item3 {
+  width: 300px;
+}
+.item4 {
+  height: 50px;
+}
+
+.item5 {
+  width: 400px;
+}
+/* 
+flex會依照父類層container區域設定的寬度
+自動去計算item的寬度比例
+
+外層屬性 須寫在父層，才可控制內層的item效果
+display:必備屬性 
+flex-direction: 決定flex軸線 
+flex-wrap:決定換行的屬性
+justify-content:主要的軸線對齊
+align-items:交錯軸線的對齊
+
+內層屬性
+flex
+flex-grow:伸展比
+flex-shrink:收縮比
+flex-basis:絕對值
+order:排序
+align-self:單一個物件的交錯軸對齊
+
+1.想讓div能並排，需在父層container下display: flex
+2.子層item寬度會依照父元素自動去做比例調整
+3.子層item內容預設會等高
+
+*/
